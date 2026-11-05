@@ -85,7 +85,7 @@
     main { flex: 1; }
     .hero { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 56px; padding: 48px 0 64px; }
     .marca { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; }
-    .marca img { width: 72px; height: 72px; object-fit: contain; margin-left: -10px; }
+    .marca img { width: 62px; height: auto; }
     .selo { display: inline-flex; align-items: center; gap: 8px; margin-top: 12px; padding: 6px 14px; border-radius: 999px; border: 1px solid rgba(255, 200, 61, .55); color: var(--gold); font-weight: 800; font-size: 12.5px; letter-spacing: .16em; text-transform: uppercase; }
     .selo::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 10px var(--gold); }
     h1 { font-family: Sora, Manrope, sans-serif; font-weight: 800; font-size: clamp(32px, 4vw, 48px); line-height: 1.1; letter-spacing: -.03em; margin-top: 18px; text-wrap: balance; }
@@ -131,9 +131,9 @@
       .hero { grid-template-columns: 1fr; gap: 0; padding: 14px 0 44px; text-align: center; }
       .copy { display: contents; }
       .topo { order: 1; }
-      .marca img { width: 56px; height: 56px; margin: 0 auto; }
+      .marca img { width: 48px; margin: 0 auto; }
       .selo { margin-top: 4px; }
-      h1 { font-size: clamp(26px, 7.4vw, 33px); margin-top: 8px; }
+      h1 { font-size: clamp(26px, 7.4vw, 33px); margin-top: 14px; }
       .sub { font-size: 15.5px; line-height: 1.5; margin: 10px auto 0; }
       .fotos { order: 3; margin-top: 22px; }
       .fotos--dupla { gap: 10px; }
@@ -166,7 +166,7 @@
     <section class="hero" aria-labelledby="titulo">
       <div class="copy">
         <div class="topo">
-          <a class="marca" href="#" aria-label="Central de Voos"><img src="logo.png" alt="Central de Voos"></a>
+          <a class="marca" href="#" aria-label="Central de Voos"><img src="logo-cdv.png" alt="Central de Voos" width="240" height="275"></a>
           <h1 id="titulo">Receba <span>Promoções Secretas</span> de Passagens com até 87% de desconto!</h1>
           <p class="sub"><b>Maju e Henrique Sanchez</b> compartilham com você as oportunidades de passagens aéreas que a nossa Inteligência Artificial encontra, direto no grupo do WhatsApp.</p>
         </div>
